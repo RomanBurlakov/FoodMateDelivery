@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 2px grey;
+}
+
+.country-tabs {
+    height: 60px;
+    display: flex;
+}
+
+.country-tab {
+    height: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    border-bottom: 2px solid #6b068a;
+    background-color: white;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.country-tab.active {
+    border: 2px solid #6b068a;
+    border-bottom: none;
+    border-radius: 25px 25px 0 0;
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+.flag {
+    height: 55px;
+    box-shadow: 0 0 5px 1px #80808080;
+}

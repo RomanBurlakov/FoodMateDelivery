@@ -1,0 +1,62 @@
+.card {
+    display: flex;
+    height: 200px;
+    box-shadow: inset 0px -2px 0px 0px #9E9E9E;
+    transform: translateY(80px);
+    opacity: 0;
+    animation: 1s ease-out forwards appearance;
+    padding: 5px 0;
+}
+
+@keyframes appearance {
+    from {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.meal-image {
+    height: 190px;
+    margin-right: 20px;
+}
+
+.discripton {
+    width: 75%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.discripton h3 {
+    font-size: 30px;
+}
+
+.discripton span {
+    font-weight: bold;
+    color: #6b068a;
+    font-size: 25px;
+}
+
+.add {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.add input {
+    width: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 5px 5px 5px 15px;
+}
