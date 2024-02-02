@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://github.com/RomanBurlakov/FoodMateDelivery",
   "scripts": {
     "dev": "vite dev",
     "host": "vite --host",
