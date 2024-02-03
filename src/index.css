@@ -1,11 +1,14 @@
 body {
-  margin: 0;
-  /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
   font-family: cursive;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+#root {
+  min-height: calc(100vh - 80px);
+  position: relative;
+  padding-bottom: 80px;
 }
